@@ -1,0 +1,10 @@
+版本：
+python 3.7+
+
+主要：
+TigerStripeSharnake是AI代码
+__main__.py是贪吃蛇AI入口文件，运行一次生命周期
+
+次要：
+webmodules是后端代码
+webserver.py开启WEB端服务器

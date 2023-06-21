@@ -1,0 +1,25 @@
+[common]
+# readme里目录结构起始行
+start-line = # 目录结构
+
+# readme里目录结构终止行
+end-line = ---
+
+# 文件描述匹配符
+comment-match = // comment:
+
+# readme 长度
+max-line-len = 120
+
+# 目录描述文件匹配
+dir-description = .dir_description
+
+[ignore-files]
+# 忽略文件/文件夹
+# ignore文件语法同.gitignore语法一样
+.git
+.gitignore
+.github_dir_tree
+.dir_description
+README.md
+__init__.py

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>登录</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+	<link rel="stylesheet" href="/static/nologin/css/me.css">
+</head>
+<body>
+	<div class="m-container-tiny m-padded-tb-massive ">
+		<div class="ui container">
+			<div class="ui middle aligned center aligned grid">
+ 	 			<div class="column">
+    				<h2 class="ui teal image header">
+      					<div class="content">
+        					登录
+      					</div>
+    				</h2>
+    				<form class="ui large form" method="post">
+	      				<div class="ui segment">
+	        				<div class="field">
+	         		 			<div class="ui left icon input">
+	            					<i class="user icon"></i>
+	            					<input type="text" name="username" placeholder="用户名">
+	          					</div>
+	        				</div>
+	        				<div class="field">
+	          					<div class="ui left icon input">
+	            					<i class="lock icon"></i>
+	            						<input type="password" name="password" placeholder="密码">
+	          					</div>
+	        				</div>
+	        				<div class="ui fluid large teal submit button">
+
+								<input type="submit" name="submit" value="登 录" class="btn">
+
+							</div>
+	      				</div>
+	      				<div class="ui error message"></div>
+    				</form>
+  				</div>
+			</div>
+            <img src="static/nologin/img/miao.png" class="ui rounded bordered fluid image">
+			
+		</div>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+</body>
+</html>
